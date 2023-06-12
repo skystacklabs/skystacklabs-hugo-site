@@ -1,0 +1,45 @@
+baseURL = 'https://skystacklabs.com'
+languageCode = 'en-us'
+title = 'Skystack Labs'
+themesDir = "themes"
+theme = "hugo-hero-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+    
+[params]
+  google_analytics_id=""
+
+  [params.logo]
+    mobile = "logos/black-skystacklabs-icon-logo.png"
+    mobile_height = "36px"
+    mobile_width = "36px"
+    desktop = "logos/black-skystacklabs-text-logo-2.png"
+    desktop_height = "37px"
+    desktop_width = "150px"
+    alt = "Hugo Hero"
+
+  [params.homepage_meta_tags]
+    meta_description = "Powering Future Innovations. Building tomorrow's technology, today."
+    meta_og_title = "Skystack Labs"
+    meta_og_type = "website"
+    meta_og_description = "Powering Future Innovations. Building tomorrow's technology, today."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@BogdanKatishev"
+    meta_twitter_creator = "@BogdanKatishev"
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
+
+
+[author]
+  name = "Bogdan Katishev"
+  homepage = "https://skystacklabs.com"
